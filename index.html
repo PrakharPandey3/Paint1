@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.8.0/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.8.0/addons/p5.dom.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.8.0/addons/p5.sound.min.js"></script>
+<script src="./p5.play.js"></script>
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.17.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.17.1/firebase-database.js"></script>
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyC6fag6Edh3fZxmdp4lmOmXuBigb9pMDQc",
+    authDomain: "paint-c476d.firebaseapp.com",
+    databaseURL: "https://paint-c476d.firebaseio.com",
+    projectId: "paint-c476d",
+    storageBucket: "paint-c476d.appspot.com",
+    messagingSenderId: "1005928538923",
+    appId: "1:1005928538923:web:5e99def22ad1f93123db6e"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
+<script src="js/Form.js"></script>
+
+  </head>
+  <body>
+      <script src="sketch.js"></script>
+      <div id = "canvascontainer"></div>
+      <p>
+        <button id = "saveButton"></button>
+      
+  </body>
+</html>
